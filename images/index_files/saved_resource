@@ -25,21 +25,19 @@
   </head>
 
   <body>
-
-    <!-- upper nav header -->
     <nav class="navbar navbar-dark" style="background-color: #202665;">
         <span class="navbar-brand mb-0 h1"><img src="/UX_UI_HW_19/images/logo.png" width="201px"></span>
         <button class="btn" type="button"><img src="/UX_UI_HW_19/images/reserveButton.png" width="175px"></button>
       </nav>
         
-      <!-- lower nav -->
       <nav class="navbar navbar-expand-lg navbar-light align-self-center" style="background-color: #C4E5DF;">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
        
-        <!-- Social Media Options -->
-        
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-soc">
 
             <a href="#" class="fa fa-youtube"></a>
@@ -48,8 +46,6 @@
             <a href="#" class="fa fa-facebook"></a>
           </div>
             
-
-          <!-- Main Navigation Options -->
           <div class="navbar-nav">
 
             
@@ -60,7 +56,6 @@
                 <a class="nav-item nav-link" href="#"><h2>Contact</h2></a>
           </div>
           
-          <!-- Search -->
           <div class="navbar-search">
             <a href="#" class="fa fa-search"></a>
           </div>
@@ -68,36 +63,32 @@
         </div>
       </nav>
 
-      <!-- Hero Image -->
-<!--<div class="slider"></div> -->
+<div class="slider"></div>
 
       <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <div class="row">
-
-              <!-- <div class="hero"><img src="/UX_UI_HW_19/images/heroImage.png"></div> -->
-             
               <h1 class="display-4">Bored? We’ve got you Covered.</h1>
-              <div class="col-sm-5 col-md-6"><img src="/UX_UI_HW_19/images/icons.png" width="200%"></div>
-              <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0"><iframe width="100%" height="150%" src="https://www.youtube.com/embed/3lOPViRiBm4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+              <div class="col-sm-5 col-md-6"><img src="/UX_UI_HW_19/images/icons.png" width="1000px"></div>
+              <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0"><iframe width="600" height="335" src="https://www.youtube.com/embed/3lOPViRiBm4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
               </iframe></div>
-            </div></div></div>
-            
-  
-
+            </div>
+            <div class="row">
+              <div class="col-sm-6 col-md-5 col-lg-6"></div>
+              <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0"></div>
             </div>
           </div></div>
 
-          
-
-
+          <div class="jumbotronMint jumbotron-fluid">
+                <div class="container">
+                    <div class="row" style="height: 30px;">
+                </div></div></div>
 
                 <div class="jumbotronWhite jumbotron-fluid">
                   <div class="container">
                       <div class="row" style="height: 40px;">
                   </div></div></div>
 
-          <!-- Top Cards -->
     <div class="container-fluid">
         <div class="row">
 
@@ -130,18 +121,16 @@
                     <div class="row" style="height: 30px;">
                 </div></div></div>
             
-
-                <!-- Featured Videos -->
             <div class="container-fluid" style="background-color: #C4E5DF;">
               <div class="col align-self-center">
                   <h1>Featured Game Tutorials</h1>
        
-                  <ul class="list-group list-group-horizontal align-self-center" >
-                    <li class="list-group-item"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/OinDrHBPN94" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                  <ul class="list-group list-group-horizontal align-self-center">
+                    <li class="list-group-item"><iframe width="360" height="215" src="https://www.youtube.com/embed/OinDrHBPN94" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                         </iframe></li>
-                    <li class="list-group-item"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/5ci6c_HT2nM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    <li class="list-group-item"></li><iframe width="360" height="215" src="https://www.youtube.com/embed/5ci6c_HT2nM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                         </iframe></li>
-                    <li class="list-group-item"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/ly5sqWqv7vU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    <li class="list-group-item"></li><iframe width="360" height="215" src="https://www.youtube.com/embed/ly5sqWqv7vU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                         </iframe></il>
                   </ul>
             </div></div>
@@ -151,8 +140,6 @@
             
             </div>
         </div> </div>
-
-        <!-- Gaming For All Statement -->
 
         <div class="jumbotronBlue jumbotron-fluid">
           <div class="container">
@@ -165,7 +152,7 @@
               
         <div class="jumbotronAll jumbotron-fluid">
           <div class="container">
-            <div class="col-sm-5 col-md-6"><br><br><br><img src="/UX_UI_HW_19/images/forAllText.png" width="175%"></div>
+            <div class="col-sm-5 col-md-6"><img src="/UX_UI_HW_19/images/forAllText.png" width="1000px"></div>
               <div class="row">
               </div>
             </div></div>  
@@ -176,17 +163,14 @@
                   <div class="row" style="height: 50px;">
               </div></div></div>
 
-            <!-- Lower Tiles -->
-              <div class="container-fluid align-self-center">
+
+              <div class="container-fluid">
                 <div class="row align-self-center">
         
                     <div class="tileContainer col-lg-12 col-md-12 col-sm-12">
                         <div class="tile" style="width: 25rem;">
-                           
-                          
-                          <!-- Top Row Tiles-->
+        
                 <div class=”tile”>
-                  <div class="box-hover"></div>
                   <img src="/UX_UI_HW_19/images/eventsTile.png" alt="Upcoming Events" width="252" height="226">
                 </div>
                 <div class=”tile”>
@@ -199,17 +183,14 @@
                   <img src="/UX_UI_HW_19/images/gameExpertsTile.png" alt="Game Experts" width="252" height="226">
                 </div>
               </div></div></div></div>
-             
-              <!-- break into second row of tiles-->
+            
                 <div class="container-fluid">
                   <div class="row align-self-center">
           
                       <div class="tileContainer col-lg-12 col-md-12 col-sm-12">
                           <div class="tile" style="width: 25rem;">
 
-                            <!-- Bottom Row Tiles -->
                 <div class=”tile”>
-                  <div class="box-hover"></div>
                   <img src="/UX_UI_HW_19/images/menuTile.png" alt="Featured Menu Item" width="252" height="226">
                 </div>
                 <div class=”tile”>
@@ -223,13 +204,11 @@
                 </div>
             </div></div></div></div>
 
-            <!-- footer -->
             <div class="jumbotronMint jumbotron-fluid">
               <div class="container">
                   <div class="row" style="height: 30px;">
               </div></div></div>
             
-              <!-- footer left col 1: Links -->
               <div class="footer">
                 <div class="footerLinks">
                   <h4>Home<br>
@@ -242,7 +221,6 @@
                   Employment<br></h4>
                 </div>
                
-                <!-- footer middle col 2: Newsletter Sign Up -->
                 <div class="footerNewsletter">
     
                   <form action="action_page.php">
@@ -263,8 +241,6 @@
                   </a>
                     <h5>Copyright 2022 | Terms of Use | Privacy Policy</h5>
                 </div>
-               
-               <!-- footer right col 2: location, hours, map -->
                 <div class="footerLocation">
                   <div class="text">
                   <h3>A Bored Gamer Cafe</h3>
@@ -289,9 +265,48 @@
 </div>
 
 <script src="/Users/Meg/Documents/GitHub/UX_UI_HW_19/js/index.js"></script>
+
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js" integrity="sha512-0xrMWUXzEAc+VY7k48pWd5YT6ig03p4KARKxs4Bqxb9atrcn2fV41fWs+YXTKb8lD2sbPAmZMjKENiyzM/Gagw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  </body>
+  <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></body>
 
 
 </html>
