@@ -28,12 +28,18 @@ function () {
   $(this).find('.tile-hover').fadeOut(100);
 });*/
 
-$('.tile').hover(
+/*$('.tile').hover(
   function() {
         $(this).children('img').fadeTo('slow', 0.5);
  },
   function() {
         $(this).children('img').fadeTo('slow', 1);
  }
-);
+);*/
 
+$(function() {
+  $('.footernewsletter').click(function(){
+    $("#bbutton").attr('src',"/Users/megandrescher/Documents/GitHub/UX_UI_HW_19/images/clickedNewsletter.png");
+    return true;
+  });
+ });

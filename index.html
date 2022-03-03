@@ -27,9 +27,9 @@
   <body>
 
     <!-- upper nav header -->
-    <nav class="navbar navbar-dark" style="background-color: #202665;">
-        <span class="navbar-brand mb-0 h1"><img src="/UX_UI_HW_19/images/logo.png" width="201px"></span>
-        <button class="btn" type="button"><img src="/UX_UI_HW_19/images/reserveButton.png" width="175px"></button>
+    <nav class="navbar navbar-dark" style="background-color: #202665;" height="100%">
+        <span class="navbar-brand mb-0 h1"><img src="/UX_UI_HW_19/images/logo.png" width="25%"></span>
+        <button class="btn" type="button"><img src="/UX_UI_HW_19/images/reserveButton.png" width="55%"></button>
       </nav>
         
       <!-- lower nav -->
@@ -51,7 +51,9 @@
 
           <!-- Main Navigation Options -->
           <div class="navbar-nav">
-
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
             
                 <a class="nav-item nav-link active" href="#"><h2>Home</h2> <span class="sr-only">(current)</span></a>
                 <a class="nav-item nav-link" href="#"><h2>Menu</h2></a>
@@ -244,18 +246,30 @@
                
                 <!-- footer middle col 2: Newsletter Sign Up -->
                 <div class="footerNewsletter">
+                    <!-- <h3>Join the Bored Game Club for Updates:</h3><br>
+               <form>
+                 <div class="footerContainer">
+                       <input type="text" placeholder="Email address" name="mail">
+                 </div>
+               <input type="image"  id="submit-btn" src="/UX_UI_HW_19/images/emailButton.png" alt="Submit Form" />
+               </form>
+               </div>-->
     
-                  <form action="action_page.php">
+                <form action="action_page.php">
                     <div class="footerContainer">
                       <h3>Join the Bored Game Club for Updates:</h3><br>
                     </div>
                   
                     <div class="footerContainer">
-                      <input type="text" placeholder="Email address" name="mail" required>
+                      <input type="text" placeholder="Email address" name="mail">
                     </div>
                   
                     <div class="footerContainer">
-                      <input type="image" src="/UX_UI_HW_19/images/emailButton.png" alt="Submit" value="Subscribe">
+                     <input class="bbutton" type="image" src="/UX_UI_HW_19/images/emailButton.png" alt="Submit" value="Subscribe">
+                      <button class="btn btn-default"> 
+                      
+                   </button> 
+        
                     </div>
                   </form>
           
