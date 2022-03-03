@@ -39,7 +39,7 @@ function () {
 
 $(function() {
   $('.bbutton').click(function(){
-    $(".bbutton").attr('src',"/Users/megandrescher/Documents/GitHub/UX_UI_HW_19/images/clickedNewsletter.png");
+    $(".bbutton").attr('src',"/UX_UI_HW_19/images/clickedNewsletter.png");
     return false;
   });
  });
