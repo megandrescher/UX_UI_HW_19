@@ -38,8 +38,8 @@ function () {
 );*/
 
 $(function() {
-  $('.footernewsletter').click(function(){
-    $("#bbutton").attr('src',"/Users/megandrescher/Documents/GitHub/UX_UI_HW_19/images/clickedNewsletter.png");
-    return true;
+  $('.bbutton').click(function(){
+    $(".bbutton").attr('src',"/Users/megandrescher/Documents/GitHub/UX_UI_HW_19/images/clickedNewsletter.png");
+    return false;
   });
  });
